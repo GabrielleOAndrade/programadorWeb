@@ -65,16 +65,19 @@ footer {
 
 #titulo {
     padding: 0;
-    margin-bottom: 10px;
+    color: aqua;
+    border-bottom: 0;
+    color: black;
 }
+
+
 
 p {
     margin: 25px 0;
-    line-height: 1.5;
 
 }
 
-ul,
+ul
 ol {
     margin-left: 25px;
 }
@@ -105,3 +108,12 @@ footer {
 span {
     font-weight: bold;
 }
+
+.image {
+    margin: 0;
+    padding: 12px;
+    justify-content: center;
+
+    height: auto;
+
+}   
