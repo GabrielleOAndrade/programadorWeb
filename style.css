@@ -66,6 +66,7 @@ footer {
 #titulo {
     padding: 0;
     margin-bottom: 10px;
+    
 }
 
 p {
@@ -86,8 +87,9 @@ ol {
 
 .links {
     background-color: rgb(250, 254, 254);
-    
+
 }
+
 .links hr {
     margin: 12px 0;
 }
@@ -99,9 +101,68 @@ footer {
 
     height: 10vh;
     background-color: aqua;
-    color:rgb(255, 255, 255)
-    
+    color: rgb(255, 255, 255)
 }
+
 span {
     font-weight: bold;
+}
+
+form {
+    width: 450px;
+    margin: center;
+    color:rgb(2, 2, 2) ;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 0.4em;
+}
+
+input[type="submit"] {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 0.6em 1em;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    border: 2px solid transparent;
+    transition: 0.4s
+}
+
+input [type="reset"] {
+    background-color: rgb(15, 193, 196);
+    color: aqua;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    border: 2px color transparent;
+    transition: 0.4;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.6em;
+    color: rgb(19, 222, 226);
+    font-size: 0.8em;
+
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+:target {
+    scroll-margin: 8em;
 }
