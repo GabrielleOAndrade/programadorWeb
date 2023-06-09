@@ -65,9 +65,7 @@ footer {
 
 #titulo {
     padding: 0;
-    color: aqua;
-    border-bottom: 0;
-    color: black;
+    margin-bottom: 10px;
 }
 
 
@@ -89,8 +87,9 @@ ol {
 
 .links {
     background-color: rgb(250, 254, 254);
-    
+
 }
+
 .links hr {
     margin: 12px 0;
 }
@@ -102,18 +101,9 @@ footer {
 
     height: 10vh;
     background-color: aqua;
-    color:rgb(255, 255, 255)
-    
+    color: rgb(255, 255, 255)
 }
+
 span {
     font-weight: bold;
 }
-
-.image {
-    margin: 0;
-    padding: 12px;
-    justify-content: center;
-
-    height: auto;
-
-}   
